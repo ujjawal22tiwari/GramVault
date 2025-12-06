@@ -1,0 +1,2174 @@
+/* .home,
+.home * {
+  box-sizing: border-box;
+} */
+/* .home {
+  background: #ffffff;
+  height: 626px;
+  width: 626px;
+
+  position: relative;
+} */
+.heading-subheading {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 971px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.label {
+  background: var(--green, #b9ff66);
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.label2 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h2-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h2-font-size, 40px);
+  font-weight: var(--h2-font-weight, 500);
+  position: relative;
+}
+.gram-vault-combines-blockchain-security-with-simple-usability-to-provide-a-complete-financial-ecosystem-for-the-indian-farmer {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 580px;
+}
+.heading-subheading2 {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 2746px;
+}
+.a-simple-transparent-and-digital-path-to-financial-independence-for-every-indian-farmer {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 580px;
+}
+.heading-subheading3 {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 3343px;
+}
+.from-registration-to-rupees-in-6-simple-steps {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 292px;
+}
+.heading-subheading4 {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 4838px;
+}
+.meet-the-innovators-behind-gram-vault-a-team-of-builders-combining-blockchain-expertise-with-deep-empathy-for-the-indian-farmer {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 615px;
+}
+.heading-subheading5 {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 5937px;
+}
+.connect-with-us-let-s-discuss-your-digital-needs {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 323px;
+}
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+}
+.navigation-bar {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1040px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-9 {
+  padding: 10px 0px 10px 0px;
+  flex-shrink: 0;
+  width: 335px;
+  height: 92px;
+  position: relative;
+  overflow: hidden;
+}
+.vector {
+  width: 44px;
+  height: 49px;
+  position: absolute;
+  left: 13px;
+  top: 14px;
+  overflow: visible;
+}
+.gram-vault {
+  color: #000000;
+  text-align: center;
+  font-family: "DmSans-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 79px;
+  top: 25px;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.how-it-works {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.insurance {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.mandi-prices {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.button {
+  border-radius: 14px;
+  border-style: solid;
+  border-color: var(--dark, #191a23);
+  border-width: 1px;
+  padding: 20px 35px 20px 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.label3 {
+  color: #000000;
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.header {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.finance-for-your-fasal-credit-on-your-terms {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h1-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h1-font-size, 60px);
+  font-weight: var(--h1-font-weight, 500);
+  position: relative;
+  width: 531px;
+}
+.we-bridge-the-gap-between-hard-work-and-capital-get-instant-low-interest-loans-based-on-your-harvest-history-not-your-paperwork-powered-by-digital-india-and-blockchain {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+  width: 498px;
+}
+.we-bridge-the-gap-between-hard-work-and-capital-get-instant-low-interest-loans-based-on-your-harvest-history-not-your-paperwork-powered-by-digital-india-and-blockchain-span {
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+}
+.we-bridge-the-gap-between-hard-work-and-capital-get-instant-low-interest-loans-based-on-your-harvest-history-not-your-paperwork-powered-by-digital-india-and-blockchain-span2 {
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-weight: 700;
+}
+.button2 {
+  background: var(--dark, #191a23);
+  border-radius: 14px;
+  padding: 20px 35px 20px 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.label4 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.illustration {
+  flex-shrink: 0;
+  width: 600.46px;
+  height: 515px;
+  position: static;
+}
+.frame {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 1032.54px;
+  top: 427px;
+  overflow: visible;
+}
+.frame2 {
+  width: 70.33px;
+  height: 70.33px;
+  position: absolute;
+  left: 847.27px;
+  top: 313px;
+  overflow: visible;
+}
+.ellipse-7 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 566.26px;
+  height: 118.95px;
+  position: absolute;
+  left: 837.45px;
+  top: 64px;
+  transform-origin: 0 0;
+  transform: rotate(28.881deg) scale(1, 1);
+}
+.ellipse-8 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 566.26px;
+  height: 118.95px;
+  position: absolute;
+  left: 817.22px;
+  top: 100.67px;
+  transform-origin: 0 0;
+  transform: rotate(28.881deg) scale(1, 1);
+}
+.ellipse-9 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 566.26px;
+  height: 118.95px;
+  position: absolute;
+  left: 796.99px;
+  top: 137.35px;
+  transform-origin: 0 0;
+  transform: rotate(28.881deg) scale(1, 1);
+}
+.ellipse-14 {
+  background: #b9ff66;
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 855.54px;
+  top: 89px;
+}
+.ellipse-16 {
+  background: #b9ff66;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1150.54px;
+  top: 425px;
+}
+.ellipse-15 {
+  background: #000000;
+  border-radius: 50%;
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  left: 797.54px;
+  top: 41px;
+}
+.group {
+  width: 446.46px;
+  height: 385px;
+  position: absolute;
+  left: 893.54px;
+  top: 0px;
+  overflow: visible;
+}
+.logotypes {
+  padding: 0px 100px 0px 100px;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.company-logo {
+  width: 126.37px;
+  height: 48px;
+  position: absolute;
+  left: 320.02px;
+  top: 0px;
+  overflow: hidden;
+  mix-blend-mode: luminosity;
+}
+.company-logo2 {
+  width: 125.24px;
+  height: 48px;
+  position: absolute;
+  left: 1008.28px;
+  top: 0px;
+  overflow: hidden;
+  mix-blend-mode: luminosity;
+}
+.base-lockup-2-color-1 {
+  width: 303px;
+  height: 77px;
+  position: absolute;
+  left: -295px;
+  top: 110px;
+  object-fit: cover;
+  aspect-ratio: 303/77;
+}
+.base-lockup-black-1 {
+  width: 137px;
+  height: 35px;
+  position: absolute;
+  left: 108px;
+  top: 8px;
+  object-fit: cover;
+  aspect-ratio: 137/35;
+}
+.eth-wordmark-purple-1 {
+  width: 194px;
+  height: 34px;
+  position: absolute;
+  left: 300px;
+  top: 3px;
+  object-fit: cover;
+  aspect-ratio: 194/34;
+}
+.chainlink-logo-black-1 {
+  width: 135px;
+  height: 34px;
+  position: absolute;
+  left: 549px;
+  top: 10px;
+  object-fit: cover;
+  aspect-ratio: 135/34;
+}
+.biconomy {
+  color: #000000;
+  text-align: left;
+  font-family: "DmSans-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 958px;
+  top: 8px;
+}
+.ledger-wordmark-black-cmyk-1 {
+  width: 130px;
+  height: 44px;
+  position: absolute;
+  left: 1214px;
+  top: 1px;
+  object-fit: cover;
+  aspect-ratio: 130/44;
+}
+.services-block {
+  width: 1440px;
+  height: 1010px;
+  position: absolute;
+  left: 0px;
+  top: 1102px;
+}
+.cards-section {
+  padding: 0px 100px 0px 100px;
+  width: 1440px;
+  height: 310px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.card {
+  background: var(--grey, #f3f3f3);
+  border-radius: 45px;
+  border-style: solid;
+  border-color: var(--dark, #191a23);
+  border-width: 1px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+.heading-and-link {
+  display: flex;
+  flex-direction: column;
+  gap: 93px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.label5 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h3-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h3-font-size, 30px);
+  font-weight: var(--h3-font-weight, 500);
+  position: relative;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon {
+  flex-shrink: 0;
+  width: 41px;
+  height: 41px;
+  position: relative;
+  overflow: visible;
+}
+.label6 {
+  color: var(--black, #000000);
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.illustration2 {
+  flex-shrink: 0;
+  width: 210px;
+  height: 170px;
+  position: relative;
+  overflow: visible;
+}
+.card2 {
+  background: var(--green, #b9ff66);
+  border-radius: 45px;
+  border-style: solid;
+  border-color: var(--dark, #191a23);
+  border-width: 1px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  position: absolute;
+  left: 740px;
+  top: 0px;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+.heading-and-link2 {
+  display: flex;
+  flex-direction: column;
+  gap: 93px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.label7 {
+  background: #ffffff;
+  border-radius: 7px;
+  padding: 0px 7px 0px 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon2 {
+  flex-shrink: 0;
+  width: 41px;
+  height: 41px;
+  position: relative;
+  overflow: visible;
+}
+.illustration3 {
+  flex-shrink: 0;
+  width: 210px;
+  height: 147.62px;
+  position: relative;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.background {
+  border-radius: 20px;
+  width: 430px;
+  height: 270px;
+  position: absolute;
+  left: 1112px;
+  top: 0px;
+  aspect-ratio: 430/270;
+}
+.text {
+  width: 110.5px;
+  height: 15px;
+  position: static;
+}
+.joy-laroy {
+  color: #fafafa;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  right: 15.9%;
+  left: 80%;
+  width: 4.1%;
+  bottom: 29.03%;
+  top: 66.13%;
+  height: 4.84%;
+}
+._12-24 {
+  color: #fafafa;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  right: 12.33%;
+  left: 85.49%;
+  width: 2.19%;
+  bottom: 29.19%;
+  top: 66.13%;
+  height: 4.68%;
+}
+.background2 {
+  border-radius: 56px;
+  width: 294px;
+  height: 180px;
+  position: absolute;
+  left: 1032px;
+  top: 90px;
+  object-fit: cover;
+  aspect-ratio: 294/180;
+}
+.kisan-shakti-card-nfc {
+  color: #4f4e4d;
+  text-align: left;
+  font-family: "DmSans-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  right: 15.9%;
+  left: 73.06%;
+  width: 11.04%;
+  bottom: 59.35%;
+  top: 36.13%;
+  height: 4.52%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.paypass {
+  width: 2.22%;
+  height: 10.32%;
+  position: absolute;
+  right: 10.07%;
+  left: 87.71%;
+  bottom: 46.13%;
+  top: 43.55%;
+  overflow: visible;
+}
+.text2 {
+  width: 59px;
+  height: 29.5px;
+  position: static;
+}
+.joy-laroy2 {
+  color: #232323;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  right: 22.15%;
+  left: 73.75%;
+  width: 4.1%;
+  bottom: 27.42%;
+  top: 67.74%;
+  height: 4.84%;
+}
+._12-25 {
+  color: #232323;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  right: 24.06%;
+  left: 73.75%;
+  width: 2.19%;
+  bottom: 22.74%;
+  top: 72.58%;
+  height: 4.68%;
+}
+.vector2 {
+  width: 2.01%;
+  height: 10.83%;
+  position: absolute;
+  right: 17.92%;
+  left: 80.07%;
+  bottom: 16.59%;
+  top: 72.58%;
+  overflow: visible;
+}
+.gram-vault2 {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: "DmSans-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  position: absolute;
+  right: -3.54%;
+  left: 69.58%;
+  width: 33.96%;
+  bottom: 18.39%;
+  top: 73.87%;
+  height: 7.74%;
+}
+.cards-section2 {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 350px;
+}
+.card3 {
+  background: var(--dark, #191a23);
+  border-radius: 45px;
+  border-style: solid;
+  border-color: var(--dark, #191a23);
+  border-width: 1px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 600px;
+  position: relative;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+.icon3 {
+  flex-shrink: 0;
+  width: 41px;
+  height: 41px;
+  position: relative;
+  overflow: visible;
+}
+.label8 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.illustration4 {
+  flex-shrink: 0;
+  width: 210px;
+  height: 210px;
+  position: relative;
+}
+.tokyo-browser-window-with-emoticon-likes-and-stars-around-2 {
+  width: 208.85px;
+  height: 210px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  object-fit: cover;
+}
+.card4 {
+  background: var(--grey, #f3f3f3);
+  border-radius: 45px;
+  border-style: solid;
+  border-color: var(--dark, #191a23);
+  border-width: 1px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 600px;
+  position: relative;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+.icon4 {
+  flex-shrink: 0;
+  width: 41px;
+  height: 41px;
+  position: relative;
+  overflow: visible;
+}
+.e {
+  color: #a09f9f;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-8.473deg) scale(1, 1);
+}
+.vector-1 {
+  flex-shrink: 0;
+  width: 78px;
+  height: 89px;
+  position: relative;
+  overflow: visible;
+}
+.vector-2 {
+  flex-shrink: 0;
+  width: 78px;
+  height: 89px;
+  position: relative;
+  overflow: visible;
+}
+.cards-section3 {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 700px;
+}
+.card5 {
+  background: var(--green, #b9ff66);
+  border-radius: 45px;
+  border-style: solid;
+  border-color: var(--dark, #191a23);
+  border-width: 1px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 600px;
+  position: relative;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+.icon5 {
+  flex-shrink: 0;
+  width: 41px;
+  height: 41px;
+  position: relative;
+  overflow: visible;
+}
+.illustration5 {
+  flex-shrink: 0;
+  width: 210px;
+  height: 195.91px;
+  position: relative;
+}
+.tokyo-many-browser-windows-with-different-information-1 {
+  width: 210px;
+  height: 195.91px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.icon6 {
+  flex-shrink: 0;
+  width: 41px;
+  height: 41px;
+  position: relative;
+  overflow: visible;
+}
+.illustration6 {
+  flex-shrink: 0;
+  width: 210px;
+  height: 170px;
+  position: relative;
+}
+.tokyo-volumetric-analytics-of-different-types-in-web-browsers-2 {
+  width: 210px;
+  height: 170px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.cta-block {
+  position: absolute;
+  inset: 0;
+}
+.cta {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 2212px;
+}
+.card6 {
+  background: var(--grey, #f3f3f3);
+  border-radius: 45px;
+  padding: 0px 60px 0px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 275px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1240px;
+  height: 347px;
+  position: relative;
+}
+.text-button {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.from-harvest-to-credit-in-3-steps {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h3-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h3-font-size, 30px);
+  font-weight: var(--h3-font-weight, 500);
+  position: relative;
+  width: 500px;
+}
+.you-don-t-need-a-bank-account-or-a-cibil-score-if-you-have-a-harvest-you-have-credit-here-is-how-gram-vault-empowers-you-in-minutes {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 500px;
+}
+.frame-19 {
+  margin: 0 0 0 -715px;
+  flex-shrink: 0;
+  width: 494px;
+  height: 394px;
+  position: relative;
+}
+.illustration7 {
+  height: auto;
+  position: absolute;
+  left: 359px;
+  top: 0px;
+  transform: translate(-359px, 0px);
+  overflow: visible;
+}
+.case-studies-block {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 3px;
+  top: 2877px;
+}
+.case-studies {
+  background: var(--dark, #191a23);
+  border-radius: 45px;
+  padding: 70px 60px 70px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.case-study {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.no-complex-passwords-login-with-your-mobile-number-otp-we-automatically-create-a-secure-digital-wallet-for-you-in-the-background-account-abstraction {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 286px;
+}
+.label9 {
+  color: var(--green, #b9ff66);
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.icon7 {
+  flex-shrink: 0;
+  width: 17.32px;
+  height: 10px;
+  position: relative;
+  overflow: visible;
+}
+.line-3 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  flex-shrink: 0;
+  width: 186px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.visit-your-local-mandi-when-you-sell-your-crop-the-weight-and-price-are-recorded-on-the-base-blockchain-this-creates-your-immutable-digital-income-proof {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  width: 286px;
+}
+.icon8 {
+  flex-shrink: 0;
+  width: 17.32px;
+  height: 10px;
+  position: relative;
+  overflow: visible;
+}
+.line-4 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  flex-shrink: 0;
+  width: 186px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.your-kisan-score-updates-instantly-you-can-now-request-a-loan-and-receive-e-rupee-tokens-directly-in-your-wallet-to-buy-seeds-and-fertilizer {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 286px;
+}
+.icon9 {
+  flex-shrink: 0;
+  width: 17.32px;
+  height: 10px;
+  position: relative;
+  overflow: visible;
+}
+.process-block {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 3px;
+  top: 3474px;
+}
+.card7 {
+  background: var(--green, #b9ff66);
+  border-radius: 45px;
+  border-style: solid;
+  border-color: #191a23;
+  border-width: 1px;
+  padding: 41px 60px 41px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1234px;
+  position: relative;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1117px;
+  position: relative;
+  overflow: hidden;
+}
+.label10 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._01 {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+}
+.login-via-mobile {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  width: 612px;
+}
+.plus-icon {
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+  position: relative;
+  overflow: visible;
+}
+.line-25 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  flex-shrink: 0;
+  width: 1114px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.no-complex-crypto-wallets-simply-enter-your-mobile-number-and-otp-we-create-a-secure-smart-account-for-you-instantly-in-the-background {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 1114px;
+  height: 60px;
+}
+.card8 {
+  background: var(--grey, #f3f3f3);
+  border-radius: 45px;
+  border-style: solid;
+  border-color: #191a23;
+  border-width: 1px;
+  padding: 41px 60px 41px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1234px;
+  position: relative;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+._02 {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+}
+.digital-identity {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  width: 612px;
+}
+.plus-icon2 {
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+  position: relative;
+  overflow: visible;
+}
+._03 {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+}
+.record-harvest {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  width: 612px;
+}
+.plus-icon3 {
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+  position: relative;
+  overflow: visible;
+}
+._04 {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+}
+.smart-verification {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h3-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h3-font-size, 30px);
+  font-weight: var(--h3-font-weight, 500);
+  position: relative;
+  width: 612px;
+}
+.plus-icon4 {
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+  position: relative;
+  overflow: visible;
+}
+._05 {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+}
+.select-credit {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h3-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h3-font-size, 30px);
+  font-weight: var(--h3-font-weight, 500);
+  position: relative;
+  width: 612px;
+}
+.plus-icon5 {
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+  position: relative;
+  overflow: visible;
+}
+._06 {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+}
+.instant-settlement {
+  color: #191a23;
+  text-align: left;
+  font-family: var(--h3-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h3-font-size, 30px);
+  font-weight: var(--h3-font-weight, 500);
+  position: relative;
+  width: 612px;
+}
+.plus-icon6 {
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+  position: relative;
+  overflow: visible;
+}
+.group-of-cards {
+  width: 1316px;
+  height: 900px;
+  position: absolute;
+  left: 78px;
+  top: 4961px;
+}
+.row {
+  padding: 0px 100px 0px 100px;
+  width: 1316px;
+  height: 354px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.card9 {
+  background: #ffffff;
+  border-radius: 45px;
+  border-style: solid;
+  border-color: #191a23;
+  border-width: 1px;
+  padding: 40px 35px 40px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 516px;
+  height: 331px;
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.person {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.picture-and-name {
+  padding: 0px 76px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.picture {
+  flex-shrink: 0;
+  width: 105.65px;
+  height: 102.82px;
+  position: relative;
+  overflow: visible;
+}
+.name {
+  flex-shrink: 0;
+  width: 293px;
+  height: 49.18px;
+  position: static;
+}
+.ambuj {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h4-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h4-font-size, 20px);
+  font-weight: var(--h4-font-weight, 500);
+  position: absolute;
+  left: 134.3px;
+  top: 53.65px;
+}
+.project-lead-blockchain-adviser {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: absolute;
+  left: 125.65px;
+  top: 79.82px;
+}
+.social-icon {
+  margin: 0 0 0 -67px;
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  overflow: visible;
+}
+.line-32 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  flex-shrink: 0;
+  width: 317px;
+  height: 0px;
+  position: relative;
+}
+.strategist-behind-the-invisible-web-3-architecture-he-designed-the-hybrid-authentication-flow-that-allows-farmers-to-login-without-private-keys {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 317px;
+}
+.card10 {
+  background: #ffffff;
+  border-radius: 45px;
+  border-style: solid;
+  border-color: #191a23;
+  border-width: 1px;
+  padding: 40px 35px 40px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 560px;
+  height: 331px;
+  position: absolute;
+  left: 656px;
+  top: 0px;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+.picture2 {
+  flex-shrink: 0;
+  width: 102.82px;
+  height: 102.82px;
+  position: relative;
+  overflow: visible;
+}
+.name2 {
+  flex-shrink: 0;
+  width: 178.18px;
+  height: 72.35px;
+  position: static;
+}
+.ujjwal {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h4-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h4-font-size, 20px);
+  font-weight: var(--h4-font-weight, 500);
+  position: absolute;
+  left: 122.82px;
+  top: 30.47px;
+}
+.blockchain-deployment-expert {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: absolute;
+  left: 123px;
+  top: 56.82px;
+  width: 178px;
+}
+.social-icon2 {
+  margin: 0 0 0 -67px;
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  overflow: visible;
+}
+.solidity-specialist-he-wrote-and-deployed-the-secure-smart-contracts-on-base-sepolia-that-handle-the-credit-scoring-and-e-rupee-settlements {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 317px;
+}
+.card11 {
+  background: #ffffff;
+  border-radius: 45px;
+  border-style: solid;
+  border-color: #191a23;
+  border-width: 1px;
+  padding: 40px 35px 40px 35px;
+  width: 516px;
+  height: 330px;
+  position: absolute;
+  left: 100px;
+  top: 382px;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+.content3 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 35px;
+  top: 40px;
+}
+.picture3 {
+  flex-shrink: 0;
+  width: 102.82px;
+  height: 102.82px;
+  position: relative;
+  overflow: visible;
+}
+.name3 {
+  flex-shrink: 0;
+  width: 194.18px;
+  height: 49.18px;
+  position: static;
+}
+.sarah-kim {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h4-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h4-font-size, 20px);
+  font-weight: var(--h4-font-weight, 500);
+  position: absolute;
+  left: 122.82px;
+  top: 53.65px;
+}
+.content-creator {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: absolute;
+  left: 123px;
+  top: 79.82px;
+  width: 194px;
+}
+.social-icon3 {
+  margin: 0 0 0 -67px;
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  overflow: visible;
+}
+._2-years-of-experience-in-writing-and-editing-skilled-in-creating-compelling-seo-optimized-content-for-various-industries {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+  width: 317px;
+}
+.card12 {
+  background: #ffffff;
+  border-radius: 45px;
+  border-style: solid;
+  border-color: #191a23;
+  border-width: 1px;
+  padding: 40px 35px 40px 35px;
+  width: 560px;
+  height: 330px;
+  position: absolute;
+  left: 656px;
+  top: 382px;
+  box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+  overflow: hidden;
+}
+.picture4 {
+  flex-shrink: 0;
+  width: 102.82px;
+  height: 102.82px;
+  position: relative;
+  overflow: visible;
+}
+.social-icon4 {
+  margin: 0 0 0 -67px;
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  overflow: visible;
+}
+.row2 {
+  padding: 0px 100px 0px 100px;
+  width: 587px;
+  height: 354px;
+  position: absolute;
+  left: 0px;
+  top: 1150px;
+}
+.contact-block {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 6096px;
+}
+.block-with-illustration {
+  background: var(--grey, #f3f3f3);
+  border-radius: 45px;
+  padding: 60px 100px 80px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1240px;
+  position: relative;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.radio-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.say-hi {
+  flex-shrink: 0;
+  width: 96px;
+  height: 28px;
+  position: static;
+}
+.say-hi2 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: absolute;
+  left: 42px;
+  top: 2px;
+}
+.radiobutton {
+  width: 28px;
+  height: 28px;
+  position: static;
+}
+.rectangle-75 {
+  background: #ffffff;
+  border-radius: 29px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ellipse-27 {
+  background: var(--green, #b9ff66);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+}
+.get-a-quote {
+  flex-shrink: 0;
+  width: 145px;
+  height: 28px;
+  position: static;
+}
+.radiobutton2 {
+  background: #ffffff;
+  border-radius: 29px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 131px;
+  top: 0px;
+}
+.get-a-quote2 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: absolute;
+  left: 173px;
+  top: 2px;
+}
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.name4 {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.input {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 18px 30px 18px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 556px;
+  position: relative;
+  overflow: hidden;
+}
+.name5 {
+  color: #898989;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.email {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.email2 {
+  color: #898989;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.field2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 223px;
+  position: relative;
+}
+.message {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.input2 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 18px 30px 18px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 556px;
+  height: 190px;
+  position: relative;
+  overflow: hidden;
+}
+.message2 {
+  color: #898989;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.button3 {
+  background: var(--dark, #191a23);
+  border-radius: 14px;
+  padding: 20px 35px 20px 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 556px;
+  position: relative;
+}
+.illustration8 {
+  margin: 0 0 0 -367px;
+  flex-shrink: 0;
+  width: 691.57px;
+  height: 648px;
+  position: relative;
+  overflow: visible;
+}
+.footer-block {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: -1px;
+  top: 7112px;
+}
+.footer {
+  background: var(--dark, #191a23);
+  border-radius: 45px 45px 0px 0px;
+  padding: 55px 60px 50px 60px;
+  flex-shrink: 0;
+  width: 1241px;
+  height: 514px;
+  position: relative;
+}
+.navigation-and-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 55px;
+}
+.group-2 {
+  flex-shrink: 0;
+  width: 264px;
+  height: 49px;
+  position: static;
+}
+.vector3 {
+  width: 44px;
+  height: 49px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.gram-vault3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "DmSans-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 66px;
+  top: 11px;
+}
+.elements {
+  flex-shrink: 0;
+  width: 623px;
+  height: 59px;
+  position: relative;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 18px;
+}
+.about-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+  position: relative;
+}
+.services {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+  position: relative;
+}
+.use-cases {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+  position: relative;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 477px;
+  top: 14.5px;
+}
+.social-icon5 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.social-icon6 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.social-icon7 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.frame-26 {
+  display: flex;
+  flex-direction: row;
+  gap: 154px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.label11 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h4-font-family, "SpaceGrotesk-Medium", sans-serif);
+  font-size: var(--h4-font-size, 20px);
+  font-weight: var(--h4-font-weight, 500);
+  position: relative;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.email-gramvault-gmail-com {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+}
+.phone-555-567-8901 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+}
+.subscription-block {
+  background: #292a32;
+  border-radius: 14px;
+  padding: 58px 40px 58px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.field3 {
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 22px 35px 22px 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 285px;
+  position: relative;
+  overflow: hidden;
+}
+.email3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--p-font-family, "SpaceGrotesk-Regular", sans-serif);
+  font-size: var(--p-font-size, 18px);
+  font-weight: var(--p-font-weight, 400);
+  position: relative;
+}
+.button4 {
+  background: var(--green, #b9ff66);
+  border-radius: 14px;
+  padding: 20px 35px 20px 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.label12 {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.line-and-text {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  position: absolute;
+  left: 60px;
+  top: 386px;
+  overflow: visible;
+}

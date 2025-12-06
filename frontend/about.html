@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* TEAM SECTION WRAPPER */
+        .team-section {
+            width: 100%;
+            padding: 80px max(20px, calc((100vw - 1200px) / 2));
+            font-family: Poppins, sans-serif;
+        }
+
+        /* HEADER */
+        .team-header {
+            display: flex;
+            gap: 18px;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+
+        .team-tag {
+            background: #b6ff3b;
+            padding: 6px 20px;
+            border-radius: 18px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .team-desc {
+            font-size: 13px;
+            color: #4b5563;
+            max-width: 520px;
+            line-height: 1.7;
+        }
+
+        /* GRID */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 26px 32px;
+        }
+
+        /* CARD */
+        .team-card {
+            background: #ffffff;
+            border-radius: 26px;
+            border: 1px solid #d1d5db;
+            padding: 22px 26px 24px;
+            box-shadow: 0 10px 0 rgba(0, 0, 0, 0.14);
+        }
+
+        /* TOP AREA: avatar + linkedin */
+        .team-card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        /* avatar blob */
+        .team-avatar-wrap {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: #b6ff3b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .team-avatar {
+            width: 54px;
+            height: 54px;
+            border-radius: 50%;
+            background: #000;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+
+        /* LinkedIn badge */
+        .team-linkedin {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: #000;
+            color: #fff;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+        /* TEXT AREA */
+        .team-text {
+            margin-top: 4px;
+        }
+
+        .team-name {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .team-role {
+            font-size: 11px;
+            color: #4b5563;
+            margin-bottom: 10px;
+        }
+
+        .team-divider {
+            width: 40%;
+            height: 1px;
+            background: #000;
+            margin-bottom: 10px;
+        }
+
+        .team-bio {
+            font-size: 11px;
+            line-height: 1.7;
+            color: #4b5563;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="team-section">
+        <div class="team-header">
+            <span class="team-tag">Team</span>
+            <p class="team-desc">
+                Meet the innovators behind GramVault. A team of builders combining
+                blockchain expertise with deep empathy for the Indian farmer.
+            </p>
+        </div>
+
+        <div class="team-grid">
+            <!-- MEMBER 1 -->
+            <article class="team-card">
+                <div class="team-card-top">
+                    <div class="team-avatar-wrap">
+                        <div class="team-avatar">A</div>
+                    </div>
+                    <a href="#" class="team-linkedin">in</a>
+                </div>
+
+                <div class="team-text">
+                    <h3 class="team-name">AMBUJ</h3>
+                    <p class="team-role">Project Lead &amp; Blockchain Adviser</p>
+                    <div class="team-divider"></div>
+                    <p class="team-bio">
+                        Strategist behind the “Invisible Web3” architecture. He designed
+                        the hybrid authentication flow that allows farmers to login without
+                        private keys.
+                    </p>
+                </div>
+            </article>
+
+            <!-- MEMBER 2 -->
+            <article class="team-card">
+                <div class="team-card-top">
+                    <div class="team-avatar-wrap">
+                        <div class="team-avatar">U</div>
+                    </div>
+                    <a href="#" class="team-linkedin">in</a>
+                </div>
+
+                <div class="team-text">
+                    <h3 class="team-name">Ujjwal</h3>
+                    <p class="team-role">Blockchain Deployment Expert</p>
+                    <div class="team-divider"></div>
+                    <p class="team-bio">
+                        Solidity specialist. He wrote and deployed the secure Smart
+                        Contracts on Base Sepolia that handle the Credit Scoring and
+                        e-Rupee settlements.
+                    </p>
+                </div>
+            </article>
+
+            <!-- MEMBER 3 -->
+            <article class="team-card">
+                <div class="team-card-top">
+                    <div class="team-avatar-wrap">
+                        <div class="team-avatar">B</div>
+                    </div>
+                    <a href="#" class="team-linkedin">in</a>
+                </div>
+
+                <div class="team-text">
+                    <h3 class="team-name">Bhagat</h3>
+                    <p class="team-role">Research &amp; Management Lead</p>
+                    <div class="team-divider"></div>
+                    <p class="team-bio">
+                        Operations lead. He conducted the market research on the “90-Day
+                        Gap” and ensures the product aligns with real-world Mandi
+                        dynamics.
+                    </p>
+                </div>
+            </article>
+
+            <!-- MEMBER 4 -->
+            <article class="team-card">
+                <div class="team-card-top">
+                    <div class="team-avatar-wrap">
+                        <div class="team-avatar">A</div>
+                    </div>
+                    <a href="#" class="team-linkedin">in</a>
+                </div>
+
+                <div class="team-text">
+                    <h3 class="team-name">Ashish</h3>
+                    <p class="team-role">Frontend Developer</p>
+                    <div class="team-divider"></div>
+                    <p class="team-bio">
+                        He built the pixel-perfect React interface, ensuring the app is
+                        accessible, responsive, and intuitive for rural users.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

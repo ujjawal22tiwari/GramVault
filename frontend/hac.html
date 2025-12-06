@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* HOW IT WORKS / FAQ SECTION */
+
+        .how-section {
+            width: 100%;
+            padding: 80px max(20px, calc((100vw - 1200px) / 2));
+            font-family: Poppins, sans-serif;
+        }
+
+        .how-header {
+            display: flex;
+            gap: 18px;
+            align-items: flex-start;
+            margin-bottom: 32px;
+        }
+
+        .how-tag {
+            background: #b6ff3b;
+            padding: 6px 18px;
+            border-radius: 18px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .how-desc {
+            font-size: 12px;
+            color: #4b5563;
+            line-height: 1.6;
+        }
+
+        .how-list {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        /* Each row */
+        .how-item {
+            border-radius: 26px;
+            background: #f4f5f7;
+            padding: 22px 30px;
+            box-shadow: 0 8px 0 #00000020;
+            cursor: pointer;
+            transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
+        }
+
+        .how-item.active {
+            background: #b6ff3b;
+            transform: translateY(-1px);
+        }
+
+        /* top line */
+        .how-item-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* left side number + title */
+        .how-step {
+            display: flex;
+            align-items: baseline;
+            gap: 16px;
+        }
+
+        .how-step-number {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        .how-step-title {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        /* toggle button */
+        .how-toggle {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            border: 1px solid #111827;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .how-item.active .how-toggle {
+            background: #ffffff;
+        }
+
+        /* divider + body text only visible in active */
+        .how-divider {
+            margin-top: 14px;
+            border-top: 1px solid #11182740;
+        }
+
+        .how-body {
+            margin-top: 10px;
+            font-size: 12px;
+            line-height: 1.6;
+            color: #111827;
+        }
+
+        .how-item:not(.active) .how-divider,
+        .how-item:not(.active) .how-body {
+            display: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .how-section {
+                padding-inline: 20px;
+            }
+
+            .how-header {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .how-item {
+                padding: 18px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HOW IT WORKS / FAQ SECTION -->
+    <section class="how-section">
+        <div class="how-header">
+            <span class="how-tag">How It Works</span>
+            <p class="how-desc">
+                From Registration to Rupees in 6<br />
+                Simple Steps.
+            </p>
+        </div>
+
+        <div class="how-list">
+
+            <!-- STEP 1 (OPEN) -->
+            <div class="how-item active">
+                <div class="how-item-header">
+                    <div class="how-step">
+                        <span class="how-step-number">01</span>
+                        <span class="how-step-title">Login via Mobile</span>
+                    </div>
+                    <button class="how-toggle" type="button" aria-expanded="true">
+                        <span class="how-toggle-symbol">−</span>
+                    </button>
+                </div>
+
+                <div class="how-divider"></div>
+
+                <div class="how-body">
+                    <p>
+                        No complex crypto wallets. Simply enter your mobile number and OTP.
+                        We create a secure “Smart Account” for you instantly in the background.
+                    </p>
+                </div>
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="how-item">
+                <div class="how-item-header">
+                    <div class="how-step">
+                        <span class="how-step-number">02</span>
+                        <span class="how-step-title">Digital Identity</span>
+                    </div>
+                    <button class="how-toggle" type="button" aria-expanded="false">
+                        <span class="how-toggle-symbol">+</span>
+                    </button>
+                </div>
+                <div class="how-body">
+                    <p>
+                        Your Aadhaar-linked profile is mapped to your wallet, creating a
+                        trusted on-chain identity for future services.
+                    </p>
+                </div>
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="how-item">
+                <div class="how-item-header">
+                    <div class="how-step">
+                        <span class="how-step-number">03</span>
+                        <span class="how-step-title">Record Harvest</span>
+                    </div>
+                    <button class="how-toggle" type="button" aria-expanded="false">
+                        <span class="how-toggle-symbol">+</span>
+                    </button>
+                </div>
+                <div class="how-body">
+                    <p>
+                        Each sale you make at the Mandi is recorded on the blockchain as
+                        a tamper-proof income record.
+                    </p>
+                </div>
+            </div>
+
+            <!-- STEP 4 -->
+            <div class="how-item">
+                <div class="how-item-header">
+                    <div class="how-step">
+                        <span class="how-step-number">04</span>
+                        <span class="how-step-title">Smart Verification</span>
+                    </div>
+                    <button class="how-toggle" type="button" aria-expanded="false">
+                        <span class="how-toggle-symbol">+</span>
+                    </button>
+                </div>
+                <div class="how-body">
+                    <p>
+                        Lenders verify your harvest history instantly, without paperwork,
+                        enabling quick credit decisions.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SIMPLE ACCORDION JS -->
+    <script>
+        document.querySelectorAll('.how-item-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const item = header.parentElement;
+                const open = item.classList.contains('active');
+
+                // close all
+                document.querySelectorAll('.how-item').forEach(i => {
+                    i.classList.remove('active');
+                    i.querySelector('.how-toggle').setAttribute('aria-expanded', 'false');
+                    i.querySelector('.how-toggle-symbol').textContent = '+';
+                });
+
+                // reopen clicked if it was closed
+                if (!open) {
+                    item.classList.add('active');
+                    const toggle = item.querySelector('.how-toggle');
+                    toggle.setAttribute('aria-expanded', 'true');
+                    item.querySelector('.how-toggle-symbol').textContent = '−';
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
