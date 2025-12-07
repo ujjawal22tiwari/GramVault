@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Decimal Gwei Indicator</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .gwei-indicator {
+      display: inline-flex;
+      align-items: center;
+      background: #000;
+      padding: 7px 14px;
+      border-radius: 50px;
+      border: 1px solid #1f2937;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .blinking-dot {
+      width: 14px;
+      height: 14px;
+      background: #e91414;
+      margin-right: 8px;
+      border-radius: 50%;
+      animation: blink 2s infinite ease-in-out;
+    }
+
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0.2; }
+      100% { opacity: 1; }
+    }
+
+    .version {
+      color: #4ade80;
+      font-weight: 600;
+      font-size: 18px;
+      margin-left: 6px;
+    }
+
+    .info {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="gwei-indicator">
+    <div class="blinking-dot"></div>
+    <div class="text">Gwei <span class="version">0.00</span></div>
+  </div>
+
+  <p class="info">Updates every 5 seconds</p>
+
+  <script>
+    const gweiVersionSpan = document.querySelector(".version");
+
+    function generateDecimal() {
+      // Random number between 0.01 and 0.99
+      return (Math.random()).toFixed(2);
+    }
+
+    function updateValue() {
+      gweiVersionSpan.textContent = generateDecimal();
+    }
+
+    // Initial load
+    updateValue();
+
+    // Update every 5 seconds
+    setInterval(updateValue, 5000);
+  </script>
+
+</body>
+</html>

@@ -21,12 +21,31 @@
             </div>
 
             <nav class="nav-links">
-                <a href="#">How it Works</a>
-                <a href="#">Insurance</a>
-                <a href="#">Mandi Prices</a>
+                <a href="#faq">How it Works</a>
+                <a href="graph.html">Dashboard</a>
+                <a href="about.html">R T price calculator</a>
             </nav>
 
-            <button class="btn-outline">Login / Connect Wallet</button>
+            
+  <div class="gwei-indicator">
+    <div class="blinking-dot"></div>
+
+    <div class="indicator-text">
+      Gwei <span class="version">--</span>
+    </div>
+  </div>
+
+            <!-- <button class="btn-outline">Login / Connect Wallet</button> -->
+            <!-- <button   id="loginBtn" id="connectWalletBtn">Login / Connect Wallet</button> -->
+            <!-- <button  class="btn-login"  id="connectWalletBtn">Login / Connect Wallet</button> -->
+            <div class="navbar">
+  <button id="loginBtn" class="btn-login">Connect & Confirm Tx</button>
+  <div id="walletAddress" class="btn-login" style="margin-left:40px;">Not Connected</div>
+</div>
+
+
+
+
         </header>
 
         <div class="hero-wrapper">
@@ -42,7 +61,7 @@
                         loans based on your harvest history—not your paperwork. Powered by
                         Digital India and Blockchain.
                     </p>
-                    <button class="btn-primary">Get Instant Loan</button>
+                    <button class="btn-primary">Get Instant Access</button>
                 </sec>
 
                 <sec class="hero-graphic" aria-hidden="true">
@@ -71,43 +90,76 @@
 
 
 
- 
 
 
-    <footer class="container partners">
-        <div class="partners-row">
-            <span><span class="bold">base</span></span>
-            <span><span class="muted">ethereum</span></span>
-            <span><span class="bold">Chainlink</span></span>
-            <span><span class="bold">Digital India</span></span>
-            <span><span class="bold">biconomy</span></span>
-            <span class="tag">LEDGER</span>
-        </div>
-    </footer>
+
+
+    <div class="custom-shape-divider-bottom-1765029013">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                opacity=".25" class="shape-fill"></path>
+            <path
+                d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                opacity=".5" class="shape-fill"></path>
+            <path
+                d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                class="shape-fill"></path>
+        </svg>
     </div>
 
 
 
 
 
- 
+
+    <div class="partners-strip">
+        <div class="partners-track">
+
+            <span>base</span>
+            <span>ethereum</span>
+            <span>Chainlink</span>
+            <span>Digital India</span>
+            <span>biconomy</span>
+            <span class="ledger">LEDGER</span>
+
+            <!-- Duplicate for infinite scroll loop -->
+            <span>base</span>
+            <span>ethereum</span>
+            <span>Chainlink</span>
+            <span>Digital India</span>
+            <span>biconomy</span>
+            <span class="ledger">LEDGER</span>
+
+        </div>
+    </div>
 
 
 
 
 
- 
 
 
 
 
-<div class="custom-shape-divider-bottom-1765028386">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-    </svg>
-</div>
+
+
+
+
+
+    <div class="custom-shape-divider-bottom-1765028386">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                opacity=".25" class="shape-fill"></path>
+            <path
+                d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                opacity=".5" class="shape-fill"></path>
+            <path
+                d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                class="shape-fill"></path>
+        </svg>
+    </div>
 
 
 
@@ -128,7 +180,7 @@
 
 
 
- 
+
 
 
 
@@ -137,7 +189,7 @@
         <div class="features-grid">
 
             <!-- CARD 1 -->
-            <div class="card card-light">
+            <!-- <div class="card card-light">
                 <div class="card-header">
                     <h3 class="card-title">Instant Kisan Loans</h3>
                     <span class="card-bar"></span>
@@ -154,10 +206,13 @@
                         <span class="card-icon">↗</span> Learn more
                     </a>
                 </div>
-            </div>
+            </div> -->
+
+            <img src="Group 13.svg" alt="" height="300px" style="margin-top: 20px; margin-left: 15px;">
+
 
             <!-- CARD 2 -->
-            <div class="card card-green">
+            <!-- <div class="card card-green">
                 <span class="card-tag">Card</span>
 
                 <div class="card-header">
@@ -175,10 +230,15 @@
                         <span class="card-icon">↗</span> Learn more
                     </a>
                 </div>
-            </div>
+            </div> -->
+
+
+            <img src="Group 16.svg" alt="" height="300px" style="margin-top: 20px; margin-left: 15px;">
+
+
 
             <!-- CARD 3 -->
-            <div class="card card-dark">
+            <!-- <div class="card card-dark">
                 <div class="card-header">
                     <span class="card-bar card-bar-white"></span>
                     <h3 class="card-title">Suraksha Insurance</h3>
@@ -193,9 +253,13 @@
                         <span class="card-icon">↗</span> Learn more
                     </a>
                 </div>
-            </div>
+            </div> -->
 
-            <!-- CARD 4 -->
+
+            <img src="Group 18.svg" alt="" height="300px" style="margin-top: 20px; margin-left: 15px;">
+
+            <!-- 
+            CARD 4
             <div class="card card-light">
                 <div class="card-header">
                     <span class="card-bar"></span>
@@ -211,10 +275,13 @@
                         <span class="card-icon">↗</span> Learn more
                     </a>
                 </div>
-            </div>
+            </div> -->
+
+            <img src="Group 19.svg" alt="" height="300px" style="margin-top: 20px; margin-left: 15px;">
+
 
             <!-- CARD 5 -->
-            <div class="card card-green">
+            <!-- <div class="card card-green">
                 <div class="card-header">
                     <span class="card-bar card-bar-dark"></span>
                     <h3 class="card-title">Mandi Ledger</h3>
@@ -229,30 +296,37 @@
                         <span class="card-icon">↗</span> Learn more
                     </a>
                 </div>
-            </div>
+            </div> -->
 
-            <!-- CARD 6 -->
-            <div class="card card-dark">
-                <span class="card-tag">SBT</span>
+            <img src="Group 20.svg" alt="" height="300px" style="margin-top: 20px; margin-left: 15px;">
 
-                <div class="card-header">
-                    <span class="card-bar card-bar-white"></span>
-                    <h3 class="card-title">Credit Scoring (SBT)</h3>
-                </div>
 
-                <div class="card-body">
-                    <div class="card-illustration">Scoring Graphic</div>
-                </div>
 
-                <div class="card-footer">
-                    <a href="#" class="card-link">
-                        <span class="card-icon">↗</span> Learn more
-                    </a>
-                </div>
-            </div>
+
+            <img src="Group 21.svg" alt="" height="300px" style="margin-top: 20px; margin-left: 15px;">
+
+
+
+
+
+
 
         </div>
+
+
+
+
+
+
     </section>
+
+
+
+
+
+ <video src="video.mp4" controls width="640" height="360" style="margin-left: 30%; border-radius: 5%;"></video>
+
+
 
     <section class="journey-section">
 
@@ -352,7 +426,7 @@
 
 
 
-    <section class="how-section">
+    <section class="how-section" id="faq">
         <div class="how-header">
             <span class="how-tag">How It Works</span>
             <p class="how-desc">
@@ -641,14 +715,14 @@
 
             <!-- Right: decoration -->
             <!-- <div class="contact-graphic"> -->
-                <!-- <div class="contact-ray contact-ray-top"></div>
+            <!-- <div class="contact-ray contact-ray-top"></div>
                 <div class="contact-ray contact-ray-bottom"></div>
                 <div class="contact-star contact-star-main"></div>
                 <div class="contact-star contact-star-accent"></div> -->
 
-                <img src="Group 10.svg" alt="" height="420px" style="margin-left: 55%;">
+            <img src="Group 10.svg" alt="" height="420px" style="margin-left: 55%;">
 
-            </div>
+        </div>
         </div>
     </section>
 
@@ -661,54 +735,270 @@
 
 
     <footer class="footer-section">
-  <div class="footer-inner">
+        <div class="footer-inner">
 
-    <!-- Left column -->
-    <div class="footer-left">
-      <div class="footer-brand">
-        <div class="footer-logo-icon"></div>
-        <span class="footer-logo-text">Gram Vault</span>
+            <!-- Left column -->
+            <div class="footer-left">
+                <div class="footer-brand">
+                    <div class="footer-logo-icon"></div>
+                    <span class="footer-logo-text">Gram Vault</span>
+                </div>
+
+                <nav class="footer-nav">
+                    <a href="#">About us</a>
+                    <a href="#">Services</a>
+                    <a href="#">Use Cases</a>
+                </nav>
+
+                <button class="footer-contact-btn"><a href="tel:8299726232">Contact us</a>
+                </button>
+
+                <div class="footer-contact-info">
+                    <p>Email: Gramvault@gmail.com</p>
+                    <p>Phone: 955-557-8801</p>
+                </div>
+            </div>
+
+            <!-- Center icons -->
+            <div class="footer-center">
+                <button class="footer-icon-btn" style="background-color: white;"><i
+                        class="fa-brands fa-github"></i></button>
+                <button class="footer-icon-btn" style="background-color: white;"><i
+                        class="fa-brands fa-github"></i></button>
+            </div>
+
+            <!-- Right: newsletter -->
+            <div class="footer-right">
+                <form class="footer-newsletter">
+                    <input type="email" placeholder="Email" class="footer-input" required />
+                    <button type="submit" class="footer-news-btn">
+                        Subscribe to news
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <!------------------========================POPUP-----------=================-------------------------------------------------------->
+
+ 
+
+<!-- POPUP -->
+<div id="loginPopup" class="login-popup-overlay">
+  <div class="login-popup">
+
+    <button class="login-popup-close">&times;</button>
+
+    <h2 class="login-popup-title">Choose how you want to login</h2>
+    <p class="login-popup-subtitle">
+      Transaction confirmed ✅<br />Continue as:
+    </p>
+
+    <!-- USER -->
+    <div class="login-popup-card">
+      <span class="login-popup-badge">User</span>
+      <h3>Farmer / User Login</h3>
+      <p>Access dashboard, check kisan score, manage wallet.</p>
+
+      <div class="input-block">
+      <!-- <label>Email</label> -->
+      <input type="email" placeholder="Enter your admin email">
+    </div>
+
+    <div class="input-block">
+      <!-- <label>Password</label> -->
+      <div class="pw-field">
+        <input type="password" id="adminPwd" placeholder="Enter admin password">
+        <span class="eye" onclick="togglePwd('adminPwd')">👁</span>
       </div>
+    </div>
 
-      <nav class="footer-nav">
-        <a href="#">About us</a>
-        <a href="#">Services</a>
-        <a href="#">Use Cases</a>
-      </nav>
 
-      <button class="footer-contact-btn"><a href="tel:8299726232">Contact us</a>
- </button>
+      <button class="login-popup-card-btn" id="userBtn"><a href="graph.html">Continue as User</a></button>
+    </div>
+ 
+    
 
-      <div class="footer-contact-info">
-        <p>Email: Gramvault@gmail.com</p>
-        <p>Phone: 955-557-8801</p>
+      <!-- <input type="email" placeholder="Enter your admin email">
+    </div> -->
+
+    <div class="input-block">
+      <!-- <label>Password</label> -->
+      <div class="pw-field">
+        <!-- <input type="password" id="adminPwd" placeholder="Enter admin password"> -->
+        <!-- <span class="eye" onclick="togglePwd('adminPwd')">👁</span> -->
       </div>
     </div>
 
-    <!-- Center icons -->
-    <div class="footer-center">
-      <button class="footer-icon-btn"  style="background-color: white;"><i class="fa-brands fa-github"></i></button>
-      <button class="footer-icon-btn" style="background-color: white;"><i class="fa-brands fa-github"></i></button>
-    </div>
 
-    <!-- Right: newsletter -->
-    <div class="footer-right">
-      <form class="footer-newsletter">
-        <input
-          type="email"
-          placeholder="Email"
-          class="footer-input"
-          required
-        />
-        <button type="submit" class="footer-news-btn">
-          Subscribe to news
-        </button>
-      </form>
-    </div>
+       <button class="login-popup-card-btn" id="adminBtn"></button> 
+    </div> 
 
   </div>
-</footer>
+</div>
 
+
+<!-- ==================== JAVASCRIPT ==================== -->
+<script>
+/* ELEMENTS */
+const loginBtn = document.getElementById('loginBtn');
+const walletDisplay = document.getElementById('walletAddress');
+const popupOverlay = document.getElementById('loginPopup');
+const popupClose = document.querySelector('.login-popup-close');
+const userBtn = document.getElementById('userBtn');
+const adminBtn = document.getElementById('adminBtn');
+
+/* BASE SEPOLIA CHAIN CONFIG */
+const BASE_SEPOLIA = {
+  chainId: '0x14a34',
+  chainName: 'Base Sepolia',
+  nativeCurrency: { name: 'ETH', symbol: 'ETH', decimals: 18 },
+  rpcUrls: ['https://sepolia.base.org'],
+  blockExplorerUrls: ['https://sepolia.basescan.org']
+};
+
+/* is MetaMask installed? */
+function hasMetaMask() {
+  return typeof window.ethereum !== "undefined";
+}
+
+/* Switch to Base Sepolia */
+async function switchToBaseSepolia() {
+  try {
+    await ethereum.request({
+      method: "wallet_switchEthereumChain",
+      params: [{ chainId: BASE_SEPOLIA.chainId }]
+    });
+    return true;
+
+  } catch (error) {
+    if (error.code === 4902) {
+      await ethereum.request({
+        method: "wallet_addEthereumChain",
+        params: [BASE_SEPOLIA]
+      });
+      return true;
+    }
+    alert("Please switch to Base Sepolia Network.");
+    return false;
+  }
+}
+
+/* MAIN FLOW: connect → switch network → send tx → show popup */
+async function connectAndSendTx() {
+  if (!hasMetaMask()) {
+    alert("Install MetaMask first.");
+    return;
+  }
+
+  try {
+    // 1️⃣ REQUEST ACCOUNTS (MetaMask connect popup)
+    const accounts = await ethereum.request({
+      method: "eth_requestAccounts"
+    });
+    const account = accounts[0];
+
+    // Update UI
+    loginBtn.textContent = "Connected";
+    loginBtn.classList.add("connected");
+    walletDisplay.textContent = account.slice(0, 6) + "..." + account.slice(-4);
+
+    // 2️⃣ SWITCH TO BASE SEPOLIA
+    const switched = await switchToBaseSepolia();
+    if (!switched) return;
+
+    // 3️⃣ SEND DEMO TRANSACTION (0 ETH to self)
+    // ⚠ Isse bhi testnet gas lagega (Base Sepolia ETH)
+    const txHash = await ethereum.request({
+      method: "eth_sendTransaction",
+      params: [{
+        from: account,
+        to: account,      // self-transfer
+        value: "0x0"      // 0 ETH (sirf gas charge)
+        // yaha agar contract call karna ho to 'to' = contract address, 'data' add karoge
+      }]
+    });
+
+    console.log("Tx Hash:", txHash);
+
+    // 4️⃣ Jab tx send ho jaye (user ne confirm kiya) → POPUP OPEN
+    popupOverlay.classList.add("show");
+
+  } catch (err) {
+    console.error(err);
+
+    if (err.code === 4001) {
+      // user ne transaction ya connection reject kiya
+      alert("You rejected the request.");
+    } else {
+      alert("Error occured. Check console.");
+    }
+  }
+}
+
+/* USER / ADMIN ACCESS PROTECTION */
+function requireWallet(callback) {
+  if (!loginBtn.classList.contains("connected")) {
+    alert("Please connect & confirm transaction first.");
+    return;
+  }
+  callback();
+}
+
+/* USER REDIRECT */
+userBtn.addEventListener("click", () => {
+  requireWallet(() => {
+    // real redirect
+    window.location.href = "/farmer/dashboard.html";
+  });
+});
+
+/* ADMIN REDIRECT */
+adminBtn.addEventListener("click", () => {
+  requireWallet(() => {
+    // real redirect
+    window.location.href = "/admin/panel.html";
+  });
+});
+
+/* POPUP CLOSE */
+popupClose.addEventListener('click', () => popupOverlay.classList.remove('show'));
+popupOverlay.addEventListener('click', (e) => {
+  if (e.target === popupOverlay) popupOverlay.classList.remove('show');
+});
+
+/* BUTTON HANDLER */
+loginBtn.addEventListener("click", connectAndSendTx);
+
+/* ACCOUNT CHANGE */
+if (hasMetaMask()) {
+  ethereum.on("accountsChanged", (accounts) => {
+    if (!accounts.length) {
+      loginBtn.textContent = "Connect & Confirm Tx";
+      walletDisplay.textContent = "Not Connected";
+      loginBtn.classList.remove("connected");
+    } else {
+      walletDisplay.textContent = accounts[0].slice(0, 6) + "..." + accounts[0].slice(-4);
+    }
+  });
+}
+</script>
+     
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------========================POPUP-----------=================-------------------------------------------------------->
 
 
 
@@ -738,6 +1028,43 @@
             });
         });
     </script>
+
+
+
+ <!-- <div class="gwei-indicator">
+    <div class="blinking-dot"></div>
+    <div class="text">Gwei <span class="version">0.00</span></div>
+  </div> -->
+
+  <p class="info">Updates every 5 seconds</p>
+
+  <script>
+    const gweiVersionSpan = document.querySelector(".version");
+
+    function generateDecimal() {
+      // Random number between 0.01 and 0.99
+      return (Math.random()).toFixed(2);
+    }
+
+    function updateValue() {
+      gweiVersionSpan.textContent = generateDecimal();
+    }
+
+    // Initial load
+    updateValue();
+
+    // Update every 5 seconds
+    setInterval(updateValue, 5000);
+  </script>
+
+
+
+
+
+
+
+
+ 
 
 
 

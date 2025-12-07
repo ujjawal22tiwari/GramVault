@@ -1,259 +1,395 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        /* HOW IT WORKS / FAQ SECTION */
+  <meta charset="UTF-8">
+  <title>Dummy Wallet Txn via MetaMask</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        .how-section {
-            width: 100%;
-            padding: 80px max(20px, calc((100vw - 1200px) / 2));
-            font-family: Poppins, sans-serif;
-        }
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      color: #0f172a;
+    }
 
-        .how-header {
-            display: flex;
-            gap: 18px;
-            align-items: flex-start;
-            margin-bottom: 32px;
-        }
+    .wrap {
+      background: #020617;
+      padding: 18px;
+      border-radius: 20px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+      max-width: 900px;
+      width: 100%;
+      color: #e5e7eb;
+    }
 
-        .how-tag {
-            background: #b6ff3b;
-            padding: 6px 18px;
-            border-radius: 18px;
-            font-weight: 600;
-            font-size: 14px;
-        }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
 
-        .how-desc {
-            font-size: 12px;
-            color: #4b5563;
-            line-height: 1.6;
-        }
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+    }
 
-        .how-list {
-            display: flex;
-            flex-direction: column;
-            gap: 18px;
-        }
+    .tag {
+      font-size: 11px;
+      color: #9ca3af;
+    }
 
-        /* Each row */
-        .how-item {
-            border-radius: 26px;
-            background: #f4f5f7;
-            padding: 22px 30px;
-            box-shadow: 0 8px 0 #00000020;
-            cursor: pointer;
-            transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
-        }
+    .meta-btn {
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid #4b5563;
+      background: #020617;
+      color: #e5e7eb;
+      font-size: 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
 
-        .how-item.active {
-            background: #b6ff3b;
-            transform: translateY(-1px);
-        }
+    .meta-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #22c55e;
+    }
 
-        /* top line */
-        .how-item-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
+    .card {
+      background: #020617;
+      border-radius: 16px;
+      border: 1px solid #1f2937;
+      padding: 14px 16px;
+      margin-bottom: 14px;
+    }
 
-        /* left side number + title */
-        .how-step {
-            display: flex;
-            align-items: baseline;
-            gap: 16px;
-        }
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
 
-        .how-step-number {
-            font-size: 26px;
-            font-weight: 600;
-        }
+    .card-sub {
+      font-size: 12px;
+      color: #9ca3af;
+      margin-bottom: 10px;
+    }
 
-        .how-step-title {
-            font-size: 16px;
-            font-weight: 600;
-        }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 6px;
+    }
 
-        /* toggle button */
-        .how-toggle {
-            width: 34px;
-            height: 34px;
-            border-radius: 50%;
-            border: 1px solid #111827;
-            background: #ffffff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-            cursor: pointer;
-        }
+    input {
+      padding: 7px 10px;
+      border-radius: 10px;
+      border: 1px solid #374151;
+      background: #020617;
+      color: #e5e7eb;
+      font-size: 13px;
+      outline: none;
+      min-width: 140px;
+      flex: 1;
+    }
 
-        .how-item.active .how-toggle {
-            background: #ffffff;
-        }
+    input::placeholder {
+      color: #6b7280;
+    }
 
-        /* divider + body text only visible in active */
-        .how-divider {
-            margin-top: 14px;
-            border-top: 1px solid #11182740;
-        }
+    input:focus {
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.45);
+    }
 
-        .how-body {
-            margin-top: 10px;
-            font-size: 12px;
-            line-height: 1.6;
-            color: #111827;
-        }
+    .btn-primary {
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: none;
+      background: #3b82f6;
+      color: white;
+      font-size: 13px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
 
-        .how-item:not(.active) .how-divider,
-        .how-item:not(.active) .how-body {
-            display: none;
-        }
+    .btn-primary:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .how-section {
-                padding-inline: 20px;
-            }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 12px;
+    }
 
-            .how-header {
-                flex-direction: column;
-                gap: 10px;
-            }
+    th,
+    td {
+      padding: 6px 6px;
+      text-align: left;
+      border-bottom: 1px solid #111827;
+    }
 
-            .how-item {
-                padding: 18px 20px;
-            }
-        }
-    </style>
+    th {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: #9ca3af;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .phone {
+      font-family: monospace;
+      color: #e5e7eb;
+    }
+
+    .wallet {
+      font-family: monospace;
+      color: #9ca3af;
+      font-size: 11px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 999px;
+      font-size: 10px;
+      background: #1f2937;
+      color: #e5e7eb;
+    }
+
+    .status {
+      margin-top: 8px;
+      font-size: 12px;
+      min-height: 18px;
+    }
+
+    .status.ok {
+      color: #22c55e;
+    }
+
+    .status.error {
+      color: #ef4444;
+    }
+
+    .footer-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      font-size: 12px;
+      color: #9ca3af;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .mini {
+      font-size: 11px;
+      color: #6b7280;
+    }
+  </style>
 </head>
 
 <body>
-    <!-- HOW IT WORKS / FAQ SECTION -->
-    <section class="how-section">
-        <div class="how-header">
-            <span class="how-tag">How It Works</span>
-            <p class="how-desc">
-                From Registration to Rupees in 6<br />
-                Simple Steps.
-            </p>
-        </div>
+  <div class="wrap">
+    <div class="header">
+      <div>
+        <div class="title">Txn Wallet – Dummy Bulk Transfer</div>
+        <div class="tag">MetaMask will only sign; funds will only move in the UI (dummy).</div>
+      </div>
+      <button class="meta-btn" id="checkMetaBtn">
+        <span class="meta-dot"></span>
+        MetaMask Status
+      </button>
+    </div>
 
-        <div class="how-list">
+    <!-- Amount config -->
+    <div class="card">
+      <div class="card-title">Amount per customer</div>
+      <div class="card-sub">
+        The amount you set here will be added to <b>each saved account</b> (dummy ₹).
+      </div>
+      <div class="row">
+        <input type="number" id="amountPerUserInput" placeholder="Example: 100" min="1">
+        <button class="btn-primary" id="sendAllBtn">
+          Send Dummy to All (MetaMask)
+        </button>
+      </div>
+      <div class="mini">Note: This is only a front-end simulation. No real on-chain transaction will be sent.</div>
+      <div id="statusBox" class="status"></div>
+    </div>
 
-            <!-- STEP 1 (OPEN) -->
-            <div class="how-item active">
-                <div class="how-item-header">
-                    <div class="how-step">
-                        <span class="how-step-number">01</span>
-                        <span class="how-step-title">Login via Mobile</span>
-                    </div>
-                    <button class="how-toggle" type="button" aria-expanded="true">
-                        <span class="how-toggle-symbol">−</span>
-                    </button>
-                </div>
+    <!-- Contacts / accounts table -->
+    <div class="card">
+      <div class="card-title">Saved Accounts (number + wallet)</div>
+      <div class="card-sub">
+        For demo purposes, 3 users are pre-configured here. You can load data from your backend and inject it into JS.
+      </div>
 
-                <div class="how-divider"></div>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Wallet</th>
+            <th>Dummy Balance (₹)</th>
+          </tr>
+        </thead>
+        <tbody id="contactsBody"></tbody>
+      </table>
 
-                <div class="how-body">
-                    <p>
-                        No complex crypto wallets. Simply enter your mobile number and OTP.
-                        We create a secure “Smart Account” for you instantly in the background.
-                    </p>
-                </div>
-            </div>
+      <div class="footer-row">
+        <div>Total users: <span id="totalUsers">0</span></div>
+        <div class="mini">All balances are stored only in browser memory and will reset on page reload.</div>
+      </div>
+    </div>
+  </div>
 
-            <!-- STEP 2 -->
-            <div class="how-item">
-                <div class="how-item-header">
-                    <div class="how-step">
-                        <span class="how-step-number">02</span>
-                        <span class="how-step-title">Digital Identity</span>
-                    </div>
-                    <button class="how-toggle" type="button" aria-expanded="false">
-                        <span class="how-toggle-symbol">+</span>
-                    </button>
-                </div>
-                <div class="how-body">
-                    <p>
-                        Your Aadhaar-linked profile is mapped to your wallet, creating a
-                        trusted on-chain identity for future services.
-                    </p>
-                </div>
-            </div>
+  <script>
+    // ------- Dummy data: you can replace this with data coming from your backend -------
+    const contacts = [
+      { id: 1, name: "Ram Kumar", phone: "9876543210", wallet: "0x1111...aaaa", dummyBalance: 0 },
+      { id: 2, name: "Ambuj Tiwari", phone: "9876543210", wallet: "0x9bn11...aaaa", dummyBalance: 0 },
+      { id: 3, name: "Sita Devi", phone: "9123456780", wallet: "0x2222...bbbb", dummyBalance: 0 },
+      { id: 4, name: "Mohan Singh", phone: "9012345678", wallet: "0x3333...cccc", dummyBalance: 0 }
+    ];
 
-            <!-- STEP 3 -->
-            <div class="how-item">
-                <div class="how-item-header">
-                    <div class="how-step">
-                        <span class="how-step-number">03</span>
-                        <span class="how-step-title">Record Harvest</span>
-                    </div>
-                    <button class="how-toggle" type="button" aria-expanded="false">
-                        <span class="how-toggle-symbol">+</span>
-                    </button>
-                </div>
-                <div class="how-body">
-                    <p>
-                        Each sale you make at the Mandi is recorded on the blockchain as
-                        a tamper-proof income record.
-                    </p>
-                </div>
-            </div>
+    const contactsBody = document.getElementById("contactsBody");
+    const totalUsersEl = document.getElementById("totalUsers");
+    const statusBox = document.getElementById("statusBox");
+    const amountPerUserInput = document.getElementById("amountPerUserInput");
+    const sendAllBtn = document.getElementById("sendAllBtn");
+    const checkMetaBtn = document.getElementById("checkMetaBtn");
 
-            <!-- STEP 4 -->
-            <div class="how-item">
-                <div class="how-item-header">
-                    <div class="how-step">
-                        <span class="how-step-number">04</span>
-                        <span class="how-step-title">Smart Verification</span>
-                    </div>
-                    <button class="how-toggle" type="button" aria-expanded="false">
-                        <span class="how-toggle-symbol">+</span>
-                    </button>
-                </div>
-                <div class="how-body">
-                    <p>
-                        Lenders verify your harvest history instantly, without paperwork,
-                        enabling quick credit decisions.
-                    </p>
-                </div>
-            </div>
+    function renderContacts() {
+      contactsBody.innerHTML = "";
+      contacts.forEach((c, idx) => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+        <td>${idx + 1}</td>
+        <td>${c.name}</td>
+        <td class="phone">${c.phone}</td>
+        <td><span class="wallet">${c.wallet}</span></td>
+        <td><span class="badge">₹ ${c.dummyBalance.toFixed(2)}</span></td>
+      `;
+        contactsBody.appendChild(tr);
+      });
+      totalUsersEl.textContent = contacts.length;
+    }
 
-        </div>
-    </section>
+    function showStatus(msg, type = "ok") {
+      statusBox.textContent = msg;
+      statusBox.className = "status " + type;
+    }
 
-    <!-- SIMPLE ACCORDION JS -->
-    <script>
-        document.querySelectorAll('.how-item-header').forEach(header => {
-            header.addEventListener('click', () => {
-                const item = header.parentElement;
-                const open = item.classList.contains('active');
+    renderContacts();
 
-                // close all
-                document.querySelectorAll('.how-item').forEach(i => {
-                    i.classList.remove('active');
-                    i.querySelector('.how-toggle').setAttribute('aria-expanded', 'false');
-                    i.querySelector('.how-toggle-symbol').textContent = '+';
-                });
+    // ---------- MetaMask check ----------
+    checkMetaBtn.addEventListener("click", async () => {
+      if (typeof window.ethereum === "undefined") {
+        showStatus("MetaMask is not installed. Please add the MetaMask extension to Chrome.", "error");
+        return;
+      }
+      try {
+        const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+        if (accounts && accounts.length > 0) {
+          showStatus(`MetaMask connected: ${accounts[0]}`, "ok");
+        } else {
+          showStatus("No MetaMask account was selected.", "error");
+        }
+      } catch (err) {
+        console.error(err);
+        showStatus("There was an error connecting to MetaMask.", "error");
+      }
+    });
 
-                // reopen clicked if it was closed
-                if (!open) {
-                    item.classList.add('active');
-                    const toggle = item.querySelector('.how-toggle');
-                    toggle.setAttribute('aria-expanded', 'true');
-                    item.querySelector('.how-toggle-symbol').textContent = '−';
-                }
-            });
+    // ---------- Dummy bulk transfer with MetaMask sign ----------
+    sendAllBtn.addEventListener("click", async () => {
+      const perUser = Number(amountPerUserInput.value);
+
+      if (!perUser || perUser <= 0) {
+        showStatus("Please enter a valid amount per customer (₹ > 0).", "error");
+        return;
+      }
+      if (typeof window.ethereum === "undefined") {
+        showStatus("MetaMask was not found. Please install MetaMask first.", "error");
+        return;
+      }
+
+      sendAllBtn.disabled = true;
+      showStatus("Opening MetaMask popup…", "ok");
+
+      try {
+        // 1. Request account
+        const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+        if (!accounts || !accounts.length) {
+          showStatus("No MetaMask account was selected.", "error");
+          sendAllBtn.disabled = false;
+          return;
+        }
+        const from = accounts[0];
+
+        // 2. Prepare dummy message for signature (no real tx)
+        const totalUsers = contacts.length;
+        const totalAmount = perUser * totalUsers;
+
+        const message = `
+        I approve sending dummy ₹${perUser} to each of ${totalUsers} users
+        (total dummy ₹${totalAmount}) from wallet ${from}.
+        This does NOT send real blockchain funds.
+      `.trim();
+
+        // 3. Ask MetaMask to sign message (will open popup)
+        const signature = await window.ethereum.request({
+          method: 'personal_sign',
+          params: [message, from]
         });
-    </script>
 
+        console.log("Signature:", signature);
+
+        // 4. If sign success: update all dummy balances
+        contacts.forEach(c => {
+          c.dummyBalance += perUser;
+        });
+        renderContacts();
+
+        showStatus(
+          `MetaMask confirmed ✅ Dummy ₹${perUser} has been added to each user’s balance (total ₹${totalAmount}).`,
+          "ok"
+        );
+      } catch (err) {
+        console.error(err);
+        if (err.code === 4001) {
+          showStatus("User rejected the MetaMask popup.", "error");
+        } else {
+          showStatus("An error occurred. Check the console for details.", "error");
+        }
+      } finally {
+        sendAllBtn.disabled = false;
+      }
+    });
+  </script>
 </body>
 
 </html>
